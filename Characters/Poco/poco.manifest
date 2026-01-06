@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 494178584
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 555305384b23fe458fff21eedf6227e4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f1997500b689d27a0d48e20b2d184a06
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 555305384b23fe458fff21eedf6227e4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Poco/AnimationClip/PocoBlockLowLoop.anim
+- Assets/Poco/Sprites/PocoAttackHighA3.png
+- Assets/Poco/Sprites/PocoAttackHighB2.png
+- Assets/Poco/AnimationClip/PocoDamage2.anim
+- Assets/Poco/AnimationClip/PocoDamage1.anim
+- Assets/Poco/AnimationController/PocoCombatController.controller
+- Assets/Poco/Sprites/PocoAttackLowA4.png
+- Assets/Poco/AnimationClip/PocoPokeAttack.anim
+- Assets/Poco/Sprites/PocoJump2.png
+- Assets/Poco/AnimationClip/PocoBackKickAttack.anim
+- Assets/Poco/Sprites/PocoJump4.png
+- Assets/Poco/Sprites/PocoDamage2.png
+- Assets/Poco/AnimationClip/PocoDamage3.anim
+- Assets/Poco/Sprites/PocoDamage1.png
+- Assets/Poco/Sprites/PocoUnused1.png
+- Assets/Poco/Sprites/PocoAttackHighA1.png
+- Assets/Poco/Sprites/PocoIdle1.png
+- Assets/Poco/Sprites/PocoAttackHighB3.png
+- Assets/Poco/Sprites/PocoAttackLowB3.png
+- Assets/Poco/Sprites/PocoAttackLowB4.png
+- Assets/Poco/Sprites/PocoJump3.png
+- Assets/Poco/Sprites/PocoJump1.png
+- Assets/Poco/Sprites/PocoAttackLowA1.png
+- Assets/Poco/Sprites/PocoAttackHighA4.png
+- Assets/Poco/Sprites/PocoUnused2.png
+- Assets/Poco/Sprites/PocoAttackLowB2.png
+- Assets/Poco/Sprites/PocoAttackHighA2.png
+- Assets/Poco/AnimationClip/PocoIdle.anim
+- Assets/Poco/Sprites/PocoAttackLowB1.png
+- Assets/Poco/Sprites/PocoAttackHighB4.png
+- Assets/Poco/AnimationClip/PocoElbowAttack.anim
+- Assets/Poco/Sprites/PocoDamage3.png
+- Assets/Poco/Sprites/PocoAttackLowA2.png
+- Assets/Poco/Sprites/PocoUnused3.png
+- Assets/Poco/AnimationClip/PocoStompAttack.anim
+- Assets/Poco/Sprites/PocoAttackLowA3.png
+- Assets/Poco/Sprites/PocoAttackHighB1.png
+- Assets/Poco/AnimationClip/PocoJump.anim
+- Assets/Poco/AnimationClip/PocoBlockHighLoop.anim
+- Assets/Poco/AnimationClip/PocoLand.anim
+- Assets/Poco/AnimationClip/PocoSwapSide.anim
+Dependencies: []

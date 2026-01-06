@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Poco",
+    "assetBundleName": "Poco/poco",
+    "animatorControllerName": "PocoCombatController",
+    "defaultActionStates": {
+      "Intro": "PocoIdle",
+      "IntroDuration": 0.0,
+      "AirBlock": "PocoBlockHighLoop",
+      "GroundBlock": "PocoBlockLowLoop",
+      "Idle": "PocoIdle",
+      "SideSwitch": "PocoSwapSide",
+      "HighAttacks": [
+        "PocoPokeAttack",
+		"PocoElbowAttack"
+      ],
+      "LowAttacks": [
+        "PocoPokeAttack",
+		"PocoStompAttack",
+		"PocoElbowAttack",
+		"PocoBackKickAttack"
+      ],
+      "Jumps": [
+        "PocoJump"
+      ],
+      "Lands": [
+        "PocoLand"
+      ],
+      "Hurts": [
+        "PocoDamage1",
+        "PocoDamage2",
+        "PocoDamage3"
+      ],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "brawlActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "runningActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "fallingActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "restOffset": 0,
+    "attackOffset": 0,
+    "holdOffset": -0.5
+  }
+]
