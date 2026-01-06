@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Crest",
+    "assetBundleName": "Crest/crest",
+    "animatorControllerName": "CrestCombatController",
+    "defaultActionStates": {
+      "Intro": "CrestIdle",
+      "IntroDuration": 0.0,
+      "AirBlock": "CrestBlockHigh",
+      "GroundBlock": "CrestBlockLow",
+      "Idle": "CrestIdle",
+      "SideSwitch": "CrestSwapSide",
+      "HighAttacks": [
+        "CrestBatonAttack1",
+		"CrestBatonAttack2",
+		"CrestTaserAttack"
+      ],
+      "LowAttacks": [
+        "CrestBatonAttack1",
+		"CrestBatonAttack2",
+		"CrestKickAttack",
+		"CrestTaserAttack"
+      ],
+      "Jumps": [
+        "CrestJumpUp"
+      ],
+      "Lands": [
+        "CrestJumpLand"
+      ],
+      "Hurts": [
+        "CrestDamage1",
+        "CrestDamage2",
+        "CrestDamage3"
+      ],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "brawlActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "runningActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "fallingActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "restOffset": 0,
+    "attackOffset": 0,
+    "holdOffset": -0.25
+  }
+]

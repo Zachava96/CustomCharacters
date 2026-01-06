@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 110011103
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e539ca5dc069ac4c73b321a5704ad71
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f1997500b689d27a0d48e20b2d184a06
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9e539ca5dc069ac4c73b321a5704ad71
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Crest/AnimatorController/CrestCombatController.controller
+- Assets/Crest/Texture2D/CrestBatonHigh1.png
+- Assets/Crest/AnimationClip/CrestSwapSide.anim
+- Assets/Crest/Texture2D/CrestBatonHigh2.png
+- Assets/Crest/Texture2D/CrestBatonLow2.png
+- Assets/Crest/Texture2D/CrestTaser1.png
+- Assets/Crest/Texture2D/CrestKick3.png
+- Assets/Crest/AnimationClip/CrestDamage3.anim
+- Assets/Crest/AnimationClip/CrestJumpLand.anim
+- Assets/Crest/Texture2D/CrestCrouch1.png
+- Assets/Crest/AnimationClip/CrestDamage1.anim
+- Assets/Crest/AnimationClip/CrestDamage2.anim
+- Assets/Crest/Texture2D/CrestKick1.png
+- Assets/Crest/AnimationClip/CrestBatonAttack2.anim
+- Assets/Crest/Texture2D/CrestIdle1.png
+- Assets/Crest/AnimationClip/CrestBlockHigh.anim
+- Assets/Crest/Texture2D/CrestTaser2.png
+- Assets/Crest/Texture2D/CrestJump 1.png
+- Assets/Crest/Texture2D/CrestJump.png
+- Assets/Crest/Texture2D/CrestIdle3.png
+- Assets/Crest/AnimationClip/CrestBatonAttack1.anim
+- Assets/Crest/Texture2D/CrestKick2.png
+- Assets/Crest/AnimationClip/CrestKickAttack.anim
+- Assets/Crest/Texture2D/CrestDamage3.png
+- Assets/Crest/Texture2D/CrestBatonLow1.png
+- Assets/Crest/Texture2D/CrestBatonHigh3.png
+- Assets/Crest/Texture2D/CrestIdle2.png
+- Assets/Crest/Texture2D/CrestTaser3.png
+- Assets/Crest/Texture2D/CrestLand.png
+- Assets/Crest/AnimationClip/CrestBlockLow.anim
+- Assets/Crest/Texture2D/CrestIdle4.png
+- Assets/Crest/Texture2D/CrestReady.png
+- Assets/Crest/Texture2D/CrestBatonLow3.png
+- Assets/Crest/AnimationClip/CrestTaserAttack.anim
+- Assets/Crest/AnimationClip/CrestIdle.anim
+- Assets/Crest/Texture2D/CrestDamage2.png
+- Assets/Crest/Texture2D/CrestJumpStraightUp.png
+- Assets/Crest/Texture2D/CrestDamage1.png
+- Assets/Crest/AnimationClip/CrestJumpUp.anim
+Dependencies: []
