@@ -1,0 +1,130 @@
+ManifestFileVersion: 0
+CRC: 3472661380
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: faea50335abef2c20d1ae6f26150169f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f1997500b689d27a0d48e20b2d184a06
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: faea50335abef2c20d1ae6f26150169f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0016.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0010.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatRun01.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack05.anim
+- Assets/BeatWhiteLabel/Texture2D/BeatCombatSprites01.png
+- Assets/BeatWhiteLabel/Sprite/beatcombatidle-beatcombatidle01_0002.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack09.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0012.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-airblock-beatcombatairblockloop_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0007.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0005.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_07.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0015.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-airblock-beatcombatairblockintro_0001.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJumpSide01.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatidle-beatcombatidle01_0000.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump01Land.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_02.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatHurt03.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0002.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatIntroIdle.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0017.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatinjuries-beatcombatinjuries_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0008.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAirBlockIntro.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_03.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0014.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump01_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0012.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-groundblock-beatcombatgroundblockloop_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-airblock-beatcombatairblockloop_0001.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack10.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack06.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0005.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_01.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatidle-beatcombatidle01_0003.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0008.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_06.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0002.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatinjuries-beatcombatinjuries_0002.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump02Up.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0004.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAirBlockLoop.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-groundblock-beatcombatgroundblockloop_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump02_0002.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0011.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0010.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0007.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump02_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0005.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0001.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack04.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump02_0003.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0019.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatinjuries-beatcombatinjuries_0000.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump02Down.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack08.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump02_0004.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0003.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump01_0002.asset
+- Assets/BeatWhiteLabel/AnimatorController/BeatWhiteLabelCombat.controller
+- Assets/BeatWhiteLabel/Sprite/beatcombatidle-beatcombatidle01_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_04.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump01_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0007.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-groundblock-beatcombatgroundblockintro_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-airblock-beatcombatairblockloop_0002.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0004.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatIntro.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0009.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0019.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-airblock-beatcombatairblockintro_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump01_0003.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatHurt02.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack07.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-groundblock-beatcombatgroundblockintro_0001.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0006.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack03.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0003.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0020.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjump02_0001.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack01.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump01Up.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump02Land.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_05.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0002.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0013.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0016.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatjump-beatcombatjumpland_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatgroundattacks-beatcombatgroundattacks_0018.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0022.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatblock-groundblock-beatcombatgroundblockloop_0002.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatmovement-beatcombatrun-combat_run_side-waitingSP_combat_run_side_08.asset
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatJump01Down.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatIdle01.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatGroundBlockLoop.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatGroundBlockIntro.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatHurt01.anim
+- Assets/BeatWhiteLabel/AnimationClip/BeatCombatAttack02.anim
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0000.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatintro-beatcombatintro_0014.asset
+- Assets/BeatWhiteLabel/Sprite/beatcombatattacks-beatcombatairattacks-beatcombatairattacks_0006.asset
+Dependencies: []

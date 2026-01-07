@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Beat [white label]",
+    "assetBundleName": "BeatWhiteLabel/beatwhitelabel",
+    "animatorControllerName": "BeatWhiteLabelCombat",
+    "defaultActionStates": {
+      "Intro": "BeatCombatIntro",
+      "IntroDuration": 0.75,
+      "AirBlock": "BeatCombatAirBlockIntro",
+      "GroundBlock": "BeatCombatGroundBlockIntro",
+      "Idle": "BeatCombatIdle01",
+      "SideSwitch": "BeatCombatJumpSide01",
+      "HighAttacks": [
+        "BeatCombatAttack05",
+		"BeatCombatAttack01",
+		"BeatCombatAttack02",
+		"BeatCombatAttack03",
+		"BeatCombatAttack08",
+		"BeatCombatAttack09",
+		"BeatCombatAttack10",
+      ],
+      "LowAttacks": [
+        "BeatCombatAttack01",
+		"BeatCombatAttack02",
+		"BeatCombatAttack03",
+		"BeatCombatAttack04",
+		"BeatCombatAttack05",
+		"BeatCombatAttack06",
+		"BeatCombatAttack07",
+      ],
+      "Jumps": [
+        "BeatCombatJump01Up",
+		"BeatCombatJump02Up"
+      ],
+      "Lands": [
+        "BeatCombatJump01Land",
+		"BeatCombatJump02Land"
+      ],
+      "Hurts": [
+        "BeatCombatHurt01",
+        "BeatCombatHurt02",
+        "BeatCombatHurt03"
+      ],
+      "HasSlams": true,
+      "IgnoreSlams": false,
+      "SlamAttacks": [
+	    "BeatCombatAttack04",
+		"BeatCombatAttack02"
+	  ]
+    },
+    "brawlActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "runningActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "BeatCombatRun01",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "fallingActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "BeatCombatJump01Down",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "restOffset": 0,
+    "attackOffset": 0,
+    "holdOffset": 0
+  }
+]

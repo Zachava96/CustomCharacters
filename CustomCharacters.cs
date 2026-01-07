@@ -14,7 +14,7 @@ namespace CustomCharacters
     {
         public const string PLUGIN_GUID = "net.zachava.customcharacters";
         public const string PLUGIN_NAME = "Custom Characters";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.0.2";
         internal static new ManualLogSource Logger;
         public static float playerRestOffset = 0f;
         public static float playerAttackOffset = 0f;

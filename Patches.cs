@@ -38,18 +38,19 @@ namespace CustomCharacters
 		}
     }
 
-    [HarmonyPatch(typeof(RhythmPlayerAnimator), "Start")]
-    class RhythmPlayerAnimatorStartPatch
-    {
-        static void Prefix(RhythmPlayerAnimator __instance)
-        {
-            if (CustomCharacters.usingCustomCharacter && __instance.Default.IntroDuration > 0f)
-            {
-                __instance.Intro(RhythmPlayer.ActionStates.DEFAULT);
-                return;
-            }
-        }
-    }
+    // Oops, patching that wasn't needed and also broke intro animations for custom characters
+    // [HarmonyPatch(typeof(RhythmPlayerAnimator), "Start")]
+    // class RhythmPlayerAnimatorStartPatch
+    // {
+    //     static void Prefix(RhythmPlayerAnimator __instance)
+    //     {
+    //         if (CustomCharacters.usingCustomCharacter && __instance.Default.IntroDuration > 0f)
+    //         {
+    //             __instance.Intro(RhythmPlayer.ActionStates.DEFAULT);
+    //             return;
+    //         }
+    //     }
+    // }
 
     [HarmonyPatch(typeof(RhythmCharacterSelector), "InstantiatePlayer")]
     class RhythmCharacterSelectorInstantiatePlayerPatch
