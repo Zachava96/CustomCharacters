@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 3395603716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf361e7513a8c4a7ba2a6ddeacfaf159
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f1997500b689d27a0d48e20b2d184a06
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bf361e7513a8c4a7ba2a6ddeacfaf159
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_high_A.anim
+- Assets/Apoco/AnimationClips/apoco_brawl_idle.anim
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse2.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_high_B.anim
+- Assets/Apoco/Sprites/ApocoAttackSmack0.png
+- Assets/Apoco/Sprites/ApocoAttackBackKick0.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_high_A_windup.anim
+- Assets/Apoco/Sprites/ApocoAttackSmack1.png
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse3.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_high_B_windup.anim
+- Assets/Apoco/Sprites/ApocoAttackHighKick3.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_low_A_windup.anim
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse5.png
+- Assets/Apoco/Sprites/ApocoDamage1.png
+- Assets/Apoco/AnimationClips/apoco_brawl_damage_1.anim
+- Assets/Apoco/Sprites/ApocoAttackBackKick1.png
+- Assets/Apoco/Sprites/ApocoAttackBackKick3.png
+- Assets/Apoco/Sprites/ApocoJump3.png
+- Assets/Apoco/Sprites/ApocoAttackHighKick0.png
+- Assets/Apoco/AnimationClips/apoco_brawl_damage_2.anim
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_low_B_windup.anim
+- Assets/Apoco/AnimationClips/apoco_brawl_jump.anim
+- Assets/Apoco/AnimationClips/apoco_brawl_damage_3.anim
+- Assets/Apoco/Sprites/ApocoIdle1.png
+- Assets/Apoco/Sprites/ApocoAttackHighKick4.png
+- Assets/Apoco/Sprites/ApocoJump1.png
+- Assets/Apoco/Sprites/ApocoAttackHighKick2.png
+- Assets/Apoco/Sprites/ApocoDamage3.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_low_B.anim
+- Assets/Apoco/Sprites/ApocoDamage2.png
+- Assets/Apoco/AnimationClips/apoco_jump_land.anim
+- Assets/Apoco/AnimationController/ApocoCombatController.controller
+- Assets/Apoco/Sprites/ApocoJump0.png
+- Assets/Apoco/Sprites/ApocoAttackBackKick2.png
+- Assets/Apoco/AnimationClips/apoco_brawl_atk_low_A.anim
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse0.png
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse1.png
+- Assets/Apoco/AnimationClips/apoco_block_low.anim
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse4.png
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse7.png
+- Assets/Apoco/AnimationClips/apoco_block_high.anim
+- Assets/Apoco/Sprites/ApocoAttackRoundhouse6.png
+- Assets/Apoco/Sprites/ApocoAttackSmack2.png
+- Assets/Apoco/AnimationClips/apoco_swap_side.anim
+- Assets/Apoco/Sprites/ApocoJump2.png
+- Assets/Apoco/Sprites/ApocoAttackHighKick1.png
+- Assets/Apoco/AnimationClips/apoco_block_low_intro.anim
+- Assets/Apoco/AnimationClips/apoco_block_high_intro.anim
+Dependencies: []

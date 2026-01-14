@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Apoco",
+    "assetBundleName": "Apoco/apoco",
+    "animatorControllerName": "ApocoCombatController",
+    "defaultActionStates": {
+      "Intro": "apoco_brawl_idle",
+      "IntroDuration": 0.0,
+      "AirBlock": "apoco_block_high_intro",
+      "GroundBlock": "apoco_block_low_intro",
+      "Idle": "apoco_brawl_idle",
+      "SideSwitch": "apoco_swap_side",
+      "HighAttacks": [
+        "apoco_brawl_atk_high_A",
+		"apoco_brawl_atk_high_B"
+      ],
+      "LowAttacks": [
+        "apoco_brawl_atk_low_A",
+		"apoco_brawl_atk_low_B",
+		"apoco_brawl_atk_high_A",
+		"apoco_brawl_atk_high_B"
+      ],
+      "Jumps": [
+        "apoco_brawl_jump"
+      ],
+      "Lands": [
+        "apoco_jump_land"
+      ],
+      "Hurts": [
+        "apoco_brawl_damage_1",
+        "apoco_brawl_damage_2",
+        "apoco_brawl_damage_3"
+      ],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "brawlActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "runningActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "fallingActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "restOffset": 0,
+    "attackOffset": 0,
+    "holdOffset": 0
+  }
+]
