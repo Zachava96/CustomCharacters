@@ -2,11 +2,13 @@
 
 This mod for UNBEATABLE allows you to add fully custom characters in the arcade mode, including custom animations and multiple attacks.
 
+Please note that this mod is unofficial and not endorsed by D-CELL GAMES in any way.
+
 ![Image showing Crest holding a low note](CustomCharacters.png)
 
 ## Compatible game versions
 
-- UNBEATABLE (tested with `v1.6.1`)
+- UNBEATABLE (tested with `v1.7.3`)
 
 ## Requirements
 
