@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Arcade.Unlockables;
+using Arcade.UI.YourProfile;
 using BepInEx;
 using HarmonyLib;
 using Rhythm;
@@ -195,6 +196,61 @@ namespace CustomCharacters
             }
         }
     }
+
+    [HarmonyPatch(typeof(CharacterDropdown), "UpdatePreview")]
+    class CharacterDropdownUpdatePreviewPatch
+    {
+        static bool Prefix(CharacterDropdown __instance, int index)
+        {
+            string character = __instance.dropdown.options[index].text;
+            if (!CustomCharacters.customCharacterNames.Contains(character))
+            {
+                //CustomCharacters.Logger.LogInfo($"UpdatePreview character='{character}' (not a custom character)");
+                return true;
+            }
+
+            AssetBundle bundle = null;
+            try
+            {                
+                CustomCharacterInfo customCharacter = CustomCharacters.customCharactersInfo
+                        .FirstOrDefault(c => c.name == character);
+
+                RuntimeAnimatorController controller = null;
+                try
+                {
+                    bundle = AssetBundle.LoadFromFile(Path.Combine(Paths.PluginPath, "CustomCharacters", customCharacter.assetBundleName));
+                    controller = bundle.LoadAsset<RuntimeAnimatorController>(customCharacter.animatorControllerName);
+                    if (controller == null)
+                    {
+                        throw new System.ArgumentException($"Animator controller '{customCharacter.animatorControllerName}' not found in asset bundle '{customCharacter.assetBundleName}'.");
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    CustomCharacters.Logger.LogError($"Error loading asset bundle or animator controller: {ex}");
+                    throw;
+                }
+
+                foreach (Animator animator in __instance.previewAnimators)
+				{
+					animator.runtimeAnimatorController = controller;
+                    //CustomCharacters.Logger.LogInfo($"UpdatePreview idle animation='{customCharacter.defaultActionStates.Idle}'");
+					__instance.StartCoroutine(__instance.SetAnimatorState(animator, customCharacter.defaultActionStates.Idle));
+				}
+            }
+            catch (System.Exception ex)
+            {
+                CustomCharacters.Logger.LogError($"Error in UpdatePreview patch: {ex}");
+            }
+            finally
+            {
+                bundle?.Unload(false);
+                bundle = null;
+            }
+            return false;
+        }
+    }
+
 
     [HarmonyPatch(typeof(RhythmBaseCharacter), "rhythmRestPoint", MethodType.Getter)]
     class RhythmBaseCharacterGetRhythmRestPointPatch
