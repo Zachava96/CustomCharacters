@@ -1,6 +1,6 @@
 # How to make a character:
 
-You will need to use **Unity 2022.3.41f1** to make an asset bundle, and then provide a JSON file as described below. The asset bundle should have your animation controller, animation clips, and sprites/textures needed.
+You will need to use Unity (whatever version UNBEATABLE currently uses would be preferred) to make an asset bundle, and then provide a JSON file as described below. The asset bundle should have your animation controller, animation clips, and sprites/textures needed.
 
 It may be helpful to examine how existing characters do their animations. Providing them is outside the scope of this mod, but **AssetRipper** should be able to help you get the assets from the game for reference. Look for the animator controllers that end with **"Combat Controller"** or **"CombatController."** Exporting them as an asset package and then making a new Unity project that imports them might be easier to work with.
 
