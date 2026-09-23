@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Kris",
+    "assetBundleName": "Kris/kris",
+    "animatorControllerName": "KrisAnimationController",
+	"outlineWidth": 0,
+	"outlineColorR": null,
+	"outlineColorG": null,
+	"outlineColorB": null,
+	"outlineColorA": 0,
+	"restOffset": 0,
+    "attackOffset": 0,
+    "holdOffset": 0,
+    "defaultActionStates": {
+      "Intro": "KrisIntro",
+      "IntroDuration": 0.75,
+      "AirBlock": "KrisAirBlock",
+      "GroundBlock": "KrisGroundBlock",
+      "Idle": "KrisIdle",
+      "SideSwitch": "KrisSideSwap",
+      "HighAttacks": [
+        "KrisAirAttack1",
+		"KrisAirAttack2",
+		"KrisAirAttack3"
+      ],
+      "LowAttacks": [
+        "KrisGroundAttack1",
+		"KrisGroundAttack2",
+		"KrisGroundAttack3"
+      ],
+      "Jumps": [
+        "KrisJumpUp"
+      ],
+      "Lands": [
+        "KrisJumpLand"
+      ],
+      "Hurts": [
+        "KrisHurt1",
+		"KrisHurt2",
+		"KrisHurt3"
+      ],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": [
+	    "KrisIdle"
+	  ]
+    },
+    "brawlActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "runningActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    },
+    "fallingActionStates": {
+      "Intro": "",
+      "IntroDuration": 0.0,
+      "AirBlock": "",
+      "GroundBlock": "",
+      "Idle": "",
+      "SideSwitch": "",
+      "HighAttacks": [],
+      "LowAttacks": [],
+      "Jumps": [],
+      "Lands": [],
+      "Hurts": [],
+      "HasSlams": false,
+      "IgnoreSlams": false,
+      "SlamAttacks": []
+    }
+  }
+]
