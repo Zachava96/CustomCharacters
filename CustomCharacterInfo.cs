@@ -11,8 +11,13 @@ namespace CustomCharacters
         public RhythmPlayerAnimator.ActionStateAnim brawlActionStates;
         public RhythmPlayerAnimator.ActionStateAnim runningActionStates;
         public RhythmPlayerAnimator.ActionStateAnim fallingActionStates;
-        public float restOffset;
-        public float attackOffset;
-        public float holdOffset;
+        public float? restOffset;
+        public float? attackOffset;
+        public float? holdOffset;
+        public float? outlineWidth;
+        public float? outlineColorR;
+        public float? outlineColorG;
+        public float? outlineColorB;
+        public float? outlineColorA;
     }
 }

@@ -12,7 +12,7 @@ The pivot point of sprites should be located at the character's feet. A pivot po
 
 ## JSON Structure Reference
 
-Do not use **null** in any field! Use empty strings or empty arrays.
+Do not use **null** in any field unless noted! Use empty strings or empty arrays.
 
 The JSON structure should be relatively self-commenting, but in case you want a reference, here it is.
 
@@ -21,7 +21,10 @@ The JSON file should be an array of objects with one object per character. Even 
 - **name**: String. This is what you want your character to be called. If you make a duplicate of another custom character, the mod will automatically add `"_dup#"` to one, so please have distinct names. Also don't use base game names, I didn't test what that does but I bet it's nothing good.
 - **assetBundleName**: String. The filename of the asset bundle to use. Include the folder name in it, such as `"CrestFolder/crestAssetBundle"`.
 - **animatorControllerName**: String. The name of the animator controller in the asset bundle to use. You can have multiple animator controllers in an asset bundle, so long as they're named differently.
-- **restOffset**, **attackOffset**, **holdOffset**: Float. I added these in case you need to shift your character forward or backward a little for animations. Negative is moved back towards the center of the screen, positive is moved out towards the edge.
+- **restOffset**, **attackOffset**, **holdOffset**: Nullable float. Optional. I added these in case you need to shift your character forward or backward a little for animations. Negative is moved back towards the center of the screen, positive is moved out towards the edge.
+- **outlineWidth**: Nullable float. Optional. If present and not null, changes the outline width when this character is spawned in.
+- **outlineColorR**, **outlineColorG**, **outlineColorB**: Nullable floats. Optional. Should be a value between 0 and 1, inclusive. If any of these values are present and not null, changes the outline color around the character. If any of these are present and not null, any missing values will be interpreted as zero.
+- **outlineColorA**: Nullable float. Optional. Changes the opacity of the outline.
 
 ---
 

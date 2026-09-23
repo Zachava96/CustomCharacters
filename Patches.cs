@@ -7,6 +7,7 @@ using HarmonyLib;
 using Rhythm;
 using UnityEngine;
 using System.IO;
+using System.Numerics;
 
 namespace CustomCharacters
 {
@@ -97,6 +98,26 @@ namespace CustomCharacters
 
                 animator.runtimeAnimatorController = controller;
 
+                if (customCharacter.outlineWidth.HasValue)
+                {
+                    playerGO.GetComponent<Renderer>().material.SetFloat("_OutlineWidth", customCharacter.outlineWidth.Value);
+                }
+
+                UnityEngine.Vector4 outlineColor = playerGO.GetComponent<Renderer>().material.GetVector("_OutlineColor");
+
+                if (customCharacter.outlineColorR.HasValue ||
+                    customCharacter.outlineColorG.HasValue ||
+                    customCharacter.outlineColorB.HasValue)
+                {
+                    outlineColor.x = customCharacter.outlineColorR ?? 0f;
+                    outlineColor.y = customCharacter.outlineColorG ?? 0f;
+                    outlineColor.z = customCharacter.outlineColorB ?? 0f;
+                }
+
+                outlineColor.w = customCharacter.outlineColorA ?? outlineColor.w;
+
+                playerGO.GetComponent<Renderer>().material.SetVector("_OutlineColor", outlineColor);
+
                 rpa.Default = customCharacter.defaultActionStates;
                 rpa.Brawl = customCharacter.brawlActionStates;
                 // These ones aren't used in Arcade as far as I know, but why not support them
@@ -106,9 +127,9 @@ namespace CustomCharacters
                 // Rebuild caches
                 rpa.Awake();
 
-                CustomCharacters.playerRestOffset = customCharacter.restOffset;
-                CustomCharacters.playerAttackOffset = customCharacter.attackOffset;
-                CustomCharacters.playerHoldOffset = customCharacter.holdOffset;
+                CustomCharacters.playerRestOffset = customCharacter.restOffset ?? 0f;
+                CustomCharacters.playerAttackOffset = customCharacter.attackOffset ?? 0f;
+                CustomCharacters.playerHoldOffset = customCharacter.holdOffset ?? 0f;
 
                 CustomCharacters.Logger.LogInfo("[InstantiatePlayer Postfix] completed OK");
             }
@@ -167,6 +188,29 @@ namespace CustomCharacters
 
                 animator.runtimeAnimatorController = controller;
 
+                if (customCharacter.outlineWidth.HasValue)
+                {
+                    assistGO.GetComponent<Renderer>().material.SetFloat("_OutlineWidth", customCharacter.outlineWidth.Value);
+                }
+
+                UnityEngine.Vector4 outlineColor = assistGO.GetComponent<Renderer>().material.GetVector("_OutlineColor");
+
+                //DEBUG
+                CustomCharacters.Logger.LogInfo($"Current outline color: {outlineColor}");
+
+                if (customCharacter.outlineColorR.HasValue ||
+                    customCharacter.outlineColorG.HasValue ||
+                    customCharacter.outlineColorB.HasValue)
+                {
+                    outlineColor.x = customCharacter.outlineColorR ?? 0f;
+                    outlineColor.y = customCharacter.outlineColorG ?? 0f;
+                    outlineColor.z = customCharacter.outlineColorB ?? 0f;
+                }
+
+                outlineColor.w = customCharacter.outlineColorA ?? outlineColor.w;
+
+                assistGO.GetComponent<Renderer>().material.SetVector("_OutlineColor", outlineColor);
+
                 var defaultActionStates = raa.Default;
                 defaultActionStates.AirBlock = customCharacter.defaultActionStates.AirBlock;
                 defaultActionStates.GroundBlock = customCharacter.defaultActionStates.GroundBlock;
@@ -177,9 +221,9 @@ namespace CustomCharacters
                 // Rebuild caches
                 raa.Awake();
 
-                CustomCharacters.assistRestOffset = customCharacter.restOffset;
-                CustomCharacters.assistAttackOffset = customCharacter.attackOffset;
-                CustomCharacters.assistHoldOffset = customCharacter.holdOffset;
+                CustomCharacters.assistRestOffset = customCharacter.restOffset ?? 0f;
+                CustomCharacters.assistAttackOffset = customCharacter.attackOffset ?? 0f;
+                CustomCharacters.assistHoldOffset = customCharacter.holdOffset ?? 0f;
 
                 CustomCharacters.Logger.LogInfo("[InstantiateAssist Postfix] completed OK");
             }
@@ -255,15 +299,15 @@ namespace CustomCharacters
     [HarmonyPatch(typeof(RhythmBaseCharacter), "rhythmRestPoint", MethodType.Getter)]
     class RhythmBaseCharacterGetRhythmRestPointPatch
     {
-        static void Postfix(RhythmBaseCharacter __instance, ref Vector3 __result)
+        static void Postfix(RhythmBaseCharacter __instance, ref UnityEngine.Vector3 __result)
         {
             if (__instance is RhythmPlayer)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.playerRestOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.playerRestOffset;
             }
             else if (__instance is RhythmAssist)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.assistRestOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.assistRestOffset;
             }
         }
     }
@@ -271,15 +315,15 @@ namespace CustomCharacters
     [HarmonyPatch(typeof(RhythmBaseCharacter), "attackPoint", MethodType.Getter)]
     class RhythmBaseCharacterGetAttackPointPatch
     {
-        static void Postfix(RhythmBaseCharacter __instance, ref Vector3 __result)
+        static void Postfix(RhythmBaseCharacter __instance, ref UnityEngine.Vector3 __result)
         {
             if (__instance is RhythmPlayer)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.playerAttackOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.playerAttackOffset;
             }
             else if (__instance is RhythmAssist)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.assistAttackOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.assistAttackOffset;
             }
         }
     }
@@ -287,15 +331,15 @@ namespace CustomCharacters
     [HarmonyPatch(typeof(RhythmBaseCharacter), "holdPoint", MethodType.Getter)]
     class RhythmBaseCharacterGetHoldPointPatch
     {
-        static void Postfix(RhythmBaseCharacter __instance, ref Vector3 __result)
+        static void Postfix(RhythmBaseCharacter __instance, ref UnityEngine.Vector3 __result)
         {
             if (__instance is RhythmPlayer)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.playerHoldOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.playerHoldOffset;
             }
             else if (__instance is RhythmAssist)
             {
-                __result += __instance.side.Pick(Vector3.left, Vector3.right) * CustomCharacters.assistHoldOffset;
+                __result += __instance.side.Pick(UnityEngine.Vector3.left, UnityEngine.Vector3.right) * CustomCharacters.assistHoldOffset;
             }
         }
     }
