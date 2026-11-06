@@ -25,4 +25,6 @@ Please note that this mod is unofficial and not endorsed by D-CELL GAMES in any 
 
 ## How do I make my own custom characters?
 
+GfORSE937 made a very detailed guide [that you can view here](https://docs.google.com/document/d/1Xp4uFVejrO6qoB_ZabzopTLfxedTKy7dA1tRFfHvb6U/edit?usp=sharing).
+
 Refer to [Making Custom Characters.](<Making Custom Characters.md>)
